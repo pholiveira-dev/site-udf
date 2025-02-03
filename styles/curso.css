@@ -58,14 +58,13 @@ main{
     font-family: var(--fonte-geral);
     background-color: white;
     width: 800px;
-    height: 800px;
+    height: 1300px;
     padding: 30px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 0px 0px 15px 15px;
     border-left: solid #3651eb9c;
     border-right: solid #3651eb9c;
     border-bottom: solid rgba(0, 0, 0, 0.397);
-
 }
 
 main>article{
