@@ -35,24 +35,6 @@ body{
     line-height: 1.5em;
 }
 
-nav{
-    background-color: var(--cornav);
-    color: white;
-    padding: 10px;
-    font-family: var(--fonte-geral);
-}
-
-nav>a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
-
-nav>a:hover{
-    text-decoration: solid;
-    background-color: var(--coratencao);
-    transition-duration: 0.6s;
-}
 
 main{
     font-family: var(--fonte-geral);
@@ -72,15 +54,21 @@ main>article{
     padding: 15px;
 }
 
-p>a{
+main a{
+    display: block;
     text-decoration: none;
-    color: black;
+    color: var(--cortitulo);
+    font-weight: bold;
     font-family: var(--fonte-geral);
 }
 
-p>a:hover{
-    text-decoration: underline;
-
+main a:hover{
+    text-decoration: solid;
+    background-color: var(--cortitulo);
+    color: white;
+    transition-duration: 0.6s;
+    padding: 5px;
+    margin: auto;
 }
 
 article>h1{
@@ -128,6 +116,7 @@ article ol{
 article li{
     list-style-position: inside;
 }
+
 
 footer{
     background-color: black;

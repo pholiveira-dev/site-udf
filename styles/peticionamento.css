@@ -58,7 +58,7 @@ main{
     font-family: var(--fonte-geral);
     background-color: white;
     width: 800px;
-    height: 800px;
+    height: 1000px;
     padding: 30px;
     margin: auto;
     border-radius: 15px;
@@ -133,6 +133,7 @@ footer>a:hover{
 }
 
 aside{
+    height: 400px;
     font-family: var(--fonte-titulo);
     margin: 0px auto 0px auto;
     padding: 15px;
