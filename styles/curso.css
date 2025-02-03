@@ -58,7 +58,7 @@ main{
     font-family: var(--fonte-geral);
     background-color: white;
     width: 800px;
-    height: 1300px;
+    height: 1600px;
     padding: 30px;
     margin: auto;
     border-radius: 0px 0px 15px 15px;
@@ -93,11 +93,40 @@ article>h1{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.336);
 }
 
+div{
+    background-color: var(--coratencao);
+    height: 400px;
+    width: 650px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+div>video{
+    max-width: 100%;
+    height: auto;
+}
+
+.iges{
+    margin: -15px -30px -15px -30px;
+}
+
 article h2{
     font-family: var(--fonte-titulo);
     padding: 1px;
     text-align: left;
     margin: 15px
+}
+
+article ol{
+    list-style-position: inside;
+}
+
+article li{
+    list-style-position: inside;
 }
 
 footer{
