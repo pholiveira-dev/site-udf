@@ -178,15 +178,6 @@ aside>h2{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
-button{
-    background-color: var(--cortitulo);
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    margin: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.178)
-}
-
 strong{
     font-weight: bolder;
 }

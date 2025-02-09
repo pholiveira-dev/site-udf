@@ -117,8 +117,8 @@ footer>a{
 
 footer>a:hover{
     text-decoration: solid;
-    background-color: var(--coratencao);
-    padding: 10px;
+    background-color: #505050;
+    padding: 3px;
     color: white;
     transition-duration: 0.6s;
 }
@@ -150,14 +150,16 @@ aside>h3{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
-button{
+/* button{
+    display: inline-block;
     background-color: var(--cortitulo);
     color: white;
+    width: 10vh;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 10px 10px 10px 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.178)
-}
+} */
 
 strong{
     font-weight: bolder;
