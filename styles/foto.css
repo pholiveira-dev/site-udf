@@ -22,7 +22,7 @@
 body{
     font-family: var(--fonte-titulo);
     font-size: 18px;
-    color: #333;
+    color: black;
     margin: 0px;
     text-indent: 15px;
     text-align: justify;
@@ -36,6 +36,7 @@ nav{
     color: white;
     padding: 10px;
     font-family: var(--fonte-geral);
+    text-align: center;
 } 
 
 nav>a{
@@ -54,19 +55,29 @@ main{
     font-family: var(--fonte-geral);
     background-color: white;
     width: 800px;
-    height: 800px;
+    height: 1600px;
     padding: 30px;
     margin: auto;
     border-radius: 15px;
     border-left: solid #3651eb9c;
     border-right: solid #3651eb9c;
     border-bottom: solid rgba(0, 0, 0, 0.397);
+}
 
+main img{
+    display: flex;
+    margin: auto;
+    width: 45%;
+}
+
+main ol{
+    margin: 15px 0px 0px 0px;
 }
 
 main>article{
     background-color: white;
     padding: 15px;
+    margin: 1px 1px 1px 1px;
 }
 
 p>a{
@@ -83,6 +94,12 @@ p>a:hover{
     transition-duration: 0.6s;
     color: white;
 
+}
+
+div{
+    background-color: var(--coratencao);
+    margin: auto;
+    border-radius: 5px;
 }
 
 article>h1{
@@ -128,10 +145,21 @@ footer>a:hover{
     color: white;
     padding: 5px;
     text-align: center;
-    margin: 15px -29px 0px -30px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.336);
+    margin: -17px -29px 0px -30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
+aside>p{
+    text-align: center;
+    padding: 3px;
+}
+
+aside h2{
+    font-family: var(--fonte-titulo);
+    padding: 1px;
+    text-align: left;
+    margin: 15px
+}
 aside{
     font-family: var(--fonte-titulo);
     margin: 0px auto 0px auto;
@@ -141,7 +169,7 @@ aside{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
-aside>h3{
+aside>h2{
     background-color: black;
     color: white;
     padding: 1px;
